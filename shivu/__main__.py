@@ -114,7 +114,7 @@ async def send_image(update: Update, context: CallbackContext) -> None:
     await context.bot.send_photo(
         chat_id=chat_id,
         photo=character['img_url'],
-        caption=f"""<b>{character['rarity'][0]}Oᴡᴏ! ᴀ {character['rarity']} ᴡᴀɪғᴜ ʜᴀs ᴀᴘᴘᴇᴀʀᴇᴅ!</b>\n<b>ᴀᴅᴅ ʜᴇʀ ᴛᴏ ʏᴏᴜʀ ʜᴀʀᴇᴍ ʙʏ sᴇɴᴅɪɴɢ</b>\n<b>/grab ɴᴀᴍᴇ</b>""",
+        caption=f"""<b>{character['rarity'][0]}Oᴡᴏ! ᴀ {character['rarity'][2:]} ᴡᴀɪғᴜ ʜᴀs ᴀᴘᴘᴇᴀʀᴇᴅ!</b>\n<b>ᴀᴅᴅ ʜᴇʀ ᴛᴏ ʏᴏᴜʀ ʜᴀʀᴇᴍ ʙʏ sᴇɴᴅɪɴɢ</b>\n<b>/grab ɴᴀᴍᴇ</b>""",
         parse_mode='HTML')
 
 
@@ -206,19 +206,19 @@ async def fav(update: Update, context: CallbackContext) -> None:
     user_id = update.effective_user.id
 
     if not context.args:
-        await update.message.reply_html('<b>ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴡᴀɪғᴜ ɪᴅ....!!</b>')
+        await update.message.reply_html('<b>ɢɪᴠᴇ ᴍᴇ ᴀ ᴡᴀɪғᴜ ɪᴅ ᴛᴏᴏ 🤖</b>')
         return
 
     character_id = context.args[0]
     user = await user_collection.find_one({'id': user_id})
 
     if not user:
-        await update.message.reply_html('<b>ʏᴏᴜ ʜᴀᴠᴇ ɴᴏᴛ ɢᴏᴛ ᴀɴʏ ᴡᴀɪғᴜ ʏᴇᴛ..!</b>')
+        await update.message.reply_html('<b>ʏᴏᴜ ᴅᴏɴᴛ ʜᴀᴠᴇ ᴀɴʏ ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ʜᴀʀᴇᴍ 😢</b>')
         return
 
     character = next((c for c in user['characters'] if c['id'] == character_id), None)
     if not character:
-        await update.message.reply_html('<b>ᴛʜɪs ᴡᴀɪғᴜ ɪs ɴᴏᴛ ɪɴ ʏᴏᴜʀ ʜᴀʀᴇᴍ ʟɪsᴛ</b>')
+        await update.message.reply_html('<b>ʏᴏᴜ ᴅᴏɴᴛ ᴏᴡɴ ᴛʜɪꜱ ᴡᴀɪꜰᴜ🤨</b>')
         return
 
     buttons = [
