@@ -6,7 +6,7 @@ from telegram.ext import CommandHandler, CallbackContext
 from shivu import CHARA_CHANNEL_ID, application, user_collection, group_user_totals_collection, top_global_groups_collection
 
 # MongoDB connection
-mongo_url = "mongodb+srv://Epic2:w85NP8dEHmQxA5s7@cluster0.tttvsf9.mongodb.net/?retryWrites=true&w=majority"
+mongo_url = "mongodb+srv://yunyxedits:assalom%4013@waifudata.vfutysm.mongodb.net/?retryWrites=true&w=majority&appName=waifudata"
 client = MongoClient(mongo_url)
 db = client['Character_catcher']
 collection = db['anime_characters_lol']
