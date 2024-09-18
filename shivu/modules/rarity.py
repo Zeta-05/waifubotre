@@ -8,8 +8,8 @@ rarity_map = {
     3: "🟡 Legendary", 
     4: "🟢 Medium", 
     5: "🎐 Celestial", 
-    6: "💮 Special Edition", 
-    7: "🔮 Limited Edition"
+    6: "💮 Special", 
+    7: "🔮 Limited"
 }
 
 
