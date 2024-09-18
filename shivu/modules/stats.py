@@ -33,14 +33,14 @@ async def stat(update: Update, context: CallbackContext) -> None:
             f"👤 Total Users: {total_users}\n"
             f"🎴 Total Characters: {total_characters}\n"
             f"🔢 Harem Count: {total_harem_count}\n"
-            f"⚜️ Characters Count Sorted By Rarity\n\n"
-            f"⚪ Common: {common_count}\n"
-            f"🟢 Medium: {medium_count}\n"
-            f"🟠 Rare: {rare_count}\n"
-            f"🟡 Legendary: {legendary_count}\n"
-            f"💠 Cosmic: {cosmic_count}\n"
-            f"💮 Exclusive: {exclusive_count}\n"
-            f"🔮 Limited Edition: {limited_edition_count}\n"
+            #f"⚜️ Characters Count Sorted By Rarity\n\n"
+            #f"⚪ Common: {common_count}\n"
+            #f"🟢 Medium: {medium_count}\n"
+            #f"🟠 Rare: {rare_count}\n"
+            #f"🟡 Legendary: {legendary_count}\n"
+            #f"💠 Cosmic: {cosmic_count}\n"
+            #f"💮 Exclusive: {exclusive_count}\n"
+            #f"🔮 Limited Edition: {limited_edition_count}\n"
         )
 
         # Send the statistics message
