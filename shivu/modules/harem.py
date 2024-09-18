@@ -172,7 +172,7 @@ async def haremmode(update: Update, context: CallbackContext):
     # Define all possible rarity modes
     all_rarities = [
         "⚪️ Common", "🟣 Rare", "🟡 Legendary",  
-        "🟢 Medium", "💮 Special Edition", "🔮 Limited Edition",  
+        "🟢 Medium", "💮 Special", "🔮 Limited",  
         "🎐 Celestial", "ᴅᴇꜰᴀᴜʟᴛ"
     ]
     names = [
