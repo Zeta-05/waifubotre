@@ -1,19 +1,19 @@
-vclass Config(object):
+class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6558846590"
-    sudo_users = "6558846590"
-    GROUP_ID = -1001926606886
-    TOKEN = "6574068893:AAHAFpK9STkslWOMY94kR-6kJinSi6FEhWo"
-    mongo_url = "mongodb+srv://yunyxedits:assalom%4013@waifudata.vfutysm.mongodb.net/?retryWrites=true&w=majority&appName=waifudata"
-    PHOTO_URL = ["https://ibb.co/q7jzMwz", "https://ibb.co/T2qNx5m", "https://ibb.co/TYS7yC4", "https://ibb.co/hVRR0T1", "https://ibb.co/3W3rVy6"]
-    SUPPORT_CHAT = "Aniverse_Group"
-    UPDATE_CHAT = "Aniverse_Updates"
-    BOT_USERNAME = "AniverseWaifuBot"
-    CHARA_CHANNEL_ID = "-1001926606886"
-    api_id = 24698455
-    api_hash = "00d4cd57b1fb369ea65563d40c9c2494"
+    OWNER_ID = "7038202445"
+    sudo_users = "7757912959", "7783550524" , "7038202445"
+    GROUP_ID = -1002324830715
+    TOKEN = "8133429097:AAFIRfJjiwmMmmnRCkyjBk0UHxUU_t2n3uM"
+    mongo_url = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority"
+    PHOTO_URL = ["https://graph.org/file/34ce254537a31ca2a788b-f8b59bff546af8dc58.jpg", "https://graph.org/file/0cd48cfd409203a00da74-2a919fe99dd1b238ec.jpg"]
+    SUPPORT_CHAT = "https://t.me/Anime_Group_India_Chat"
+    UPDATE_CHAT = "https://t.me/Shorekeeper_updates"
+    BOT_USERNAME = "HosinoXharembot"
+    CHARA_CHANNEL_ID = "-1002324830715"
+    api_id = 23028479
+    api_hash = "c1e6a93b04c0810a5c282d8d8d44ea6f"
 
     STRICT_GBAN = True
     ALLOW_CHATS = True
