@@ -43,7 +43,7 @@ async def start(update: Update, context: CallbackContext) -> None:
 
     if update.effective_chat.type == "private":
         caption = f"""
-🍃 <b>ɢʀᴇᴇᴛɪɴɢꜱ, ɪ'ᴍ ˹ᴡᴀɪꜰᴜ • ɢʀᴀʙʙᴇʀ ワイフ˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!</b>
+🍃 <b>ɢʀᴇᴇᴛɪɴɢꜱ, ɪ'ᴍ ˹ʜσѕιησ ʜαяєм˼ 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!</b>
 
 <b>━━━━━━━▧▣▧━━━━━━━</b>
 <b>⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
@@ -57,9 +57,9 @@ async def start(update: Update, context: CallbackContext) -> None:
 
         keyboard = [
             [InlineKeyboardButton("✣  ᴀᴅᴅ ᴍᴇ  ✣", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'https://t.me/{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'a{UPDATE_CHAT}')],
             #[InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", callback_data='help')],
-            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Aniverse-Waifu-Grabber-Bot-Help-09-04')]
+            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Hosino-Harem-Bot-11-03')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         photo_url = random.choice(PHOTO_URL)
@@ -70,9 +70,9 @@ async def start(update: Update, context: CallbackContext) -> None:
         photo_url = random.choice(PHOTO_URL)
         keyboard = [
             [InlineKeyboardButton("✣  ᴀᴅᴅ ᴍᴇ  ✣", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'https://t.me/{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'{UPDATE_CHAT}')],
             #[InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", callback_data='help')],
-            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Aniverse-Waifu-Grabber-Bot-Help-09-04')],
+            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Hosino-Harem-Bot-11-03')],
             [InlineKeyboardButton("✣  ꜱᴛᴀʀᴛ ʙᴏᴛ ɪɴ ᴘᴍ  ✣", url=f'http://t.me/{BOT_USERNAME}?start')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
@@ -163,9 +163,9 @@ async def button(update: Update, context: CallbackContext) -> None:
 
         keyboard = [
             [InlineKeyboardButton("✣  ᴀᴅᴅ ᴍᴇ  ✣", url=f'http://t.me/{BOT_USERNAME}?startgroup=new')],
-            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'https://t.me/{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'https://t.me/{UPDATE_CHAT}')],
+            [InlineKeyboardButton("〄  ꜱᴜᴘᴘᴏʀᴛ  〄", url=f'{SUPPORT_CHAT}'), InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇꜱ ⍟", url=f'{UPDATE_CHAT}')],
             #[InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", callback_data='help')],
-            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Aniverse-Waifu-Grabber-Bot-Help-09-04')]
+            [InlineKeyboardButton("❖  ʜᴇʟᴘ  ❖", url=f'https://telegra.ph/Hosino-Harem-Bot-11-03')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
