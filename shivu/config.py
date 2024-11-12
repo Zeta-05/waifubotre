@@ -2,8 +2,8 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "7038202445"
-    sudo_users = "7757912959", "7783550524" , "7038202445"
+    OWNER_ID = "7757912959"
+    sudo_users = "7757912959", "6611414888", "7038202445", "7389740306"
     GROUP_ID = -1002324830715
     TOKEN = "8133429097:AAFCxOWcVoFA_KrMlRlLnh79UuEplNZ6o1c"
     mongo_url = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority"
